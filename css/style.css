@@ -1,24 +1,114 @@
+/* Color Palette
+Black: #0b0c10
+Dark Grey: #1f2833
+Light Grey: #c5c6c7/#e3ebf3
+Light Blue: #66fcf1
+Dark Blue: #45a29e
+Dark Background: #161c24
+*/ 
+
+@font-face {
+  font-family: "Tesla";
+  src: url("/fonts/TESLA.ttf") format('truetype');
+
+  font-family: "Valorant";
+  src: url("/fonts/Valorant\ Font.ttf") format('truetype');
+
+  font-family: "Aceton";
+  src: url("/fonts/ACETONE.ttf") format('truetype');
+
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/Ubuntu-Title.ttf") format('truetype');
+
+  font-family: "Abnes";
+  src: url("/fonts/abnes.ttf") format('truetype');
+
+  font-family: "Nasa";
+  src: url("/fonts/nasalization-rg.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Caviar";
+  src: url("/fonts/CaviarDreams.ttf") format('truetype');
+
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand_Light.otf") format('opentype');
+}
 body {
-  min-height: 3000px;
+  min-height: 2000px;
 }
 
 .jumbotron {
-  padding-top: 5rem;
-  background-color: black;
+  padding-top: 4rem;
+  background-color: #161c24;
+  color: #66fcf1;
+  font-family: "Valorant";
 }
 
+.jumbotron .col-md-8 img{
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.jumbotron .wave {
+  margin-top: 75px;
+}
+
+#about {
+  margin-top: -100px;
+  color: #1f2833;
+}
+
+#about h2{
+  color: #45a29e;
+  font-family: 'Aceton';
+  font-size:55px;
+}
+#about p, li {
+  color: #1f2833;
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
 #projects {
-  background-color: black;
+  background-color: #161c24;
 }
 
 #projects .container h2 {
-  color: white;
+  color: #4b4f53;
+  font-family: 'Aceton';
+  font-size:55px;
 }
 
+#projects p {
+  color: #c5c6c7;
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #52f1e7;
+  color: #161c24;
+}
+
+#contact .container h2 {
+  color: #45a29e;
+  font-family: 'Aceton';
+  font-size:55px;
+}
+
+#contact form {
+  color: #419793;
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
 section {
   padding-top: 5rem;
 }
 
 footer {
-  color: white;
+  color: #c5c6c7;
 }

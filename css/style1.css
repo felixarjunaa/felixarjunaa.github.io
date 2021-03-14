@@ -1,0 +1,67 @@
+body {
+  min-height: 2000px;
+  background-color: #fffdd0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  margin-bottom: -60px;
+}
+
+#about {
+  margin-bottom: -10px;
+}
+
+#skills .container {
+}
+
+#skills .container h2 {
+}
+
+#skills .container .row .card {
+  border: none;
+}
+
+#skills .container .row .col-md-5 p {
+  color: black;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+#skills .container .row .col-md-4 p {
+  color: black;
+  font-size: 20px;
+  margin-top: -4px;
+}
+
+#skills .container {
+  margin-bottom: -120px;
+}
+
+#contact .container {
+  margin-bottom: -140px;
+}
+
+footer {
+  color: black;
+  margin-top: -40px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+#contact .row .mb-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "jost", sans-serif;
+}
+.navbar-brand {
+  font-family: "Jost";
+}
+
+.nav-item {
+  font-family: "Poppins";
+}
